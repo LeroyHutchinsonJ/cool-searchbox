@@ -6,8 +6,15 @@ import "./styles.css";
 function App() {
   return (
     <div className="searchBox">
-      <input type="text" name="" placeholder="Type to search" />
-      <a className="searchBtn" href="#" />
+      <input
+        className="searchText"
+        type="text"
+        name=""
+        placeholder="Type to search"
+      />
+      <a className="searchBtn" href="#">
+        <i className="fas fa-search" />
+      </a>
     </div>
   );
 }

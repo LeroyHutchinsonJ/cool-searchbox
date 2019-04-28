@@ -2,3 +2,29 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  background-color: #2ecc71;
+  margin: 0;
+  padding: 0;
+}
+.searchBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #95a5a6;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.searchBtn {
+  color: #2ecc71;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #95a5a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
