@@ -27,6 +27,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.4s;
 }
 
 .searchText {
@@ -45,4 +46,7 @@ body {
 .searchBox:hover > .searchText {
   width: 240px;
   padding: 0 6px;
+}
+.searchBox:hover > .searchBtn {
+  background: white;
 }
